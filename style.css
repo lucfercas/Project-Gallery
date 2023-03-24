@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+    font-family: VT323;
+    /* padding: 0%; */
+}
+
+main{
+    display: block;
+}
+
+div{
+    display: block;
+}
+.cards{
+    display: flex;
+    margin: auto;
+    align-items: flex-start;
+    align-content: normal;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.card {
+    flex: 1;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1.5em;
+    min-width: 300px;
+}
