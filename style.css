@@ -3,33 +3,30 @@
 }
 
 body{
-    background-color: darkgray;
+    background-color: whitesmoke;
     font-family: VT323;
-    /* padding: 0%; */
 }
 
-main{
-    display: block;
-}
-
-div{
-    display: block;
-}
-.cards{
-    display: flex;
+.container {
     margin: auto;
-    align-items: flex-start;
-    align-content: normal;
-    flex-direction: row;
-    flex-flow: row wrap;
+    display: flex;
     justify-content: center;
-    width: 80%;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 85%;
 }
 
 .card {
     flex: 1;
     border-radius: 4px;
+    border: 1px solid black;
     padding: 1em;
     margin: 1.5em;
     min-width: 300px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
